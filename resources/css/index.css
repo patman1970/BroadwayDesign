@@ -1,0 +1,43 @@
+body {
+  font-family: Helvetica;
+  text-align: center;
+
+}
+
+h1 {
+  font-size:70px;
+  font-weight:bold;
+  color:white;
+}
+
+nav.a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.backimage {
+  /* NOTE: need to research why this image doesn't render */
+  background-image: url("./resouces/images/the-flatiron-building.png");
+  width: 100%;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.backgrey {
+  background-color: DimGrey;
+}
+
+h3 {
+  font-size:23px;
+  font-weight: bold;
+}
+
+#myCopyright {
+  font-family: Helvetica;
+  font-size: 11px;
+  color:white;
+}
