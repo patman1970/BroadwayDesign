@@ -4,21 +4,25 @@ body {
 
 }
 
+p {
+  font-size: 14px;
+}
+
 h1 {
   font-size:70px;
   font-weight:bold;
   color:white;
 }
 
-nav.a {
-  text-decoration: none;
+.backgrey a, p a {
+  /* We want underlined links: text-decoration: none; */
   font-size: 18px;
   color: white;
 }
 
 .backimage {
   /* NOTE: need to research why this image doesn't render */
-  background-image: url("./resouces/images/the-flatiron-building.png");
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   width: 100%;
 }
 
@@ -31,6 +35,11 @@ h2 {
   background-color: DimGrey;
 }
 
+h2.backgrey {
+  background-color: DimGrey;
+  color: white;
+}
+
 h3 {
   font-size:23px;
   font-weight: bold;
@@ -40,4 +49,8 @@ h3 {
   font-family: Helvetica;
   font-size: 11px;
   color:white;
+}
+
+#footer table {
+  cellspacing: 0; cellpadding: 0; width:100%;
 }
